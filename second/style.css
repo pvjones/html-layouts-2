@@ -1,0 +1,110 @@
+body {
+  background-color: #d7d7d7;
+  font-family: sans-serif;
+  line-height: 30px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.red {
+  background-color: #e20f00;
+}
+
+.blue {
+  background-color: #0090e7;
+}
+
+.centeredbox {
+ position: relative;
+ left: 50%;
+ transform: translate(-50%);
+}
+
+.mainbox {
+  background-color: white;
+  min-width: 400px;
+  width: 80vw;
+  min-height: 300px;
+  padding: 30px;
+  margin: 30px 0 0 0;
+}
+
+.mainbox p {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 0;
+}
+
+.button {
+  border: 1px solid gray;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 30px;
+  margin: 0 20px 0 0;
+}
+
+.buttonleft {
+  position: absolute;
+  bottom: 30px;
+}
+
+.buttonright {
+  position: absolute;
+  bottom: 30px;
+  left: 170px;
+}
+
+.imagebox {
+  background-color: #444444;
+  width: 70vw;
+  height: 35vw;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.imagebox p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+}
+
+.imagecaption {
+ margin-top: 40vw;
+}
+
+.footer {
+  background-color: #363636;
+  height: 80px;
+  width: 100%;
+  margin: 30px 0 0 0;
+  color: white;
+  font-size: 22px;
+  position: relative;
+}
+
+.footer ul {
+  list-style-type: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  padding: 0 0 0 0;
+}
